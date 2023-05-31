@@ -1,0 +1,167 @@
+header
+{
+    background: #949393;
+    padding: 5px;
+}
+
+.Encabezado
+{
+    width: 1250px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.Encabezado nav
+{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.Encabezado nav li
+{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+.Encabezado nav a
+{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.op header
+{
+    background: #dfdfdf;
+    padding: 20px;
+}
+
+.opciones
+{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.opciones nav li
+{
+    display: inline;
+    margin: 0 0 0 125px;
+}
+
+.opciones nav a
+{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.opciones nav a:hover
+{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos h2
+{
+    width: 900px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    margin: 30px 0px 0px 750px;
+
+}
+
+.producto-precio
+{
+    width: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 30px 30px 775px;
+}
+
+.producto-descripcion
+{
+    width: 500px;
+    font-size: 17px;
+    display: block;
+    margin: 20px 0px 0px 780px;
+}
+
+.imagen-principal
+{
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+.imagen-secundaria
+{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    width: 10px;
+    margin: 0 auto;
+    display: inline;
+    margin: 0 0 0 10px;
+}
+.imagen-secundaria
+{
+    display: inline-block;
+    text-align: center;
+    width: 7%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+.imagen-secundaria:hover
+{
+    border-color: #c78c19;
+}
+
+.imagen-secundaria:active
+{
+    border-color: #088c19;
+}
+
+footer
+{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright
+{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+.texto {
+   text-align: center;
+   }
+.ImgeText{
+    display: flex;
+}
+.ImgeTextt{
+    display: flex;
+}
+.parrafo1{
+    padding: 50px;
+    margin-left: 500px;
+}
+.total{
+    margin-left: 850px;
+}
+.boton{
+
+    font-weight: 700;
+    margin-left: 800px;
+}
